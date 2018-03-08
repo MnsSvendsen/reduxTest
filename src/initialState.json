@@ -1,0 +1,28 @@
+{
+    "allSkiDays": [
+        {
+            "resort": "nota",
+            "date": "2018-03-20",
+            "powder": true,
+            "backcountry": false
+        },
+        {
+            "resort": "WiglyLine",
+            "date": "2016-12-20",
+            "powder": true,
+            "backcountry": false
+        },
+        {
+            "resort": "Ornings",
+            "date": "2018-02-28",
+            "powder": true,
+            "backcountry": false
+        }
+    ],
+    "goal": 10,
+    "errors": [],
+    "resortNames":{
+        "fetching": false,
+        "suggestions": ["nota", "Snowbird","Stowe"]
+    }
+}
