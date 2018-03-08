@@ -1,10 +1,13 @@
 import C from '../constants'
 
-export const  goal = ( state, action ) => {
+export const  goal = ( state, action ) => 
+    (action.type === C.SET_GOAL) ?
+        parseInt(action.paylode):
+        state
 
-    if (action.type === C.SET_GOAL){
-        return parseInt(action.paylode)
-    } else {
-        return state
-    }
-}
+        export const  skiDay = ( state, action ) => 
+    (action.type === C.SET_DAY) ?
+        action.paylode:
+        state
+
+

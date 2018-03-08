@@ -19,5 +19,5 @@ console.log(`
 
     initial state: ${state}
     action: ${JSON.stringify(action)}
-    new state: ${nextState}
+    new state: ${JSON.stringify(nextState)}
 `)
